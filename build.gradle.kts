@@ -21,13 +21,14 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
     compileOnly("org.projectlombok:lombok")
     developmentOnly("org.springframework.boot:spring-boot-devtools")
-    runtimeOnly("org.mariadb.jdbc:mariadb-java-client")
+    runtimeOnly("mysql:mysql-connector-java")
     annotationProcessor("org.projectlombok:lombok")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testCompileOnly("org.projectlombok:lombok")
     testAnnotationProcessor("org.projectlombok:lombok")
     implementation("nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:3.1.0")
     implementation ("org.springframework.boot:spring-boot-starter-validation")
+    implementation("mysql:mysql-connector-java:8.0.28")
 
 }
 
