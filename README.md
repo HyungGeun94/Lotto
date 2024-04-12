@@ -18,7 +18,9 @@
 # 사이트 링크
 
   
-[로또 추첨 사이트](https://luco777.store/)
+<a href="https://luco777.store/?v=2dc108364f7542d6a1557ef722396c66&pvs=4" target="_blank">
+    <img src="https://img.shields.io/badge/로또 추첨 사이트-181717?style=for-the-badge&logo=Apple Arcade&logoColor=white">
+  </a>
 
 
 
