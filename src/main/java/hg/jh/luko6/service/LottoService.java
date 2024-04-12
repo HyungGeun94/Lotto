@@ -79,6 +79,8 @@ public class LottoService {
 
             }
 
+
+
             //2등로직
             if (score == 5) {
 
@@ -90,6 +92,10 @@ public class LottoService {
                 }
 
             }
+
+
+
+
 
             // 출력되야할 리스트에 넣는 부분.
             if(score>10){

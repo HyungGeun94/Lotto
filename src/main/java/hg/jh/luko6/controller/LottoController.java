@@ -46,7 +46,7 @@ public class LottoController {
         stats.put("visitorCount", visitorCount);//방문자수 맵에 넣기
         // 추가 데이터 처리
 
-        VisitStats visitStats  =visitStatsService.getVisitStats(2L);//visitStats에 있는 id가 1인 컬럼을 불러온다
+        VisitStats visitStats  =visitStatsService.getVisitStats(1L);//visitStats에 있는 id가 1인 컬럼을 불러온다
         //optional은 값이 존재한다면 반환, 없을 경우 NoSuchElementException 발생
         Long userCount = visitStats.getUserCount();
 
@@ -132,7 +132,7 @@ public class LottoController {
 
 
 
-         visitStats  =visitStatsService.getVisitStats(2L);//visitStats에 있는 id가 1인 컬럼을 불러온다
+         visitStats  =visitStatsService.getVisitStats(1L);//visitStats에 있는 id가 1인 컬럼을 불러온다
 
 
 //       로직이 돌아가면 이용자수에 +1하기

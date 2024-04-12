@@ -1,5 +1,6 @@
 # 로또 프로젝트 
-증가하는 로또 매출에 비례하여 생각보다 로또 추첨 관련 사이트가 없어서 색다르게 만들게 되었습니다.
+백엔드 개발자 프로젝트로 로또에 대한 관심에 비해 로또 추첨 관련 모의 사이트가 없어서 색다르게 만들게 되었습니다.
+
 
 
 ---
@@ -12,11 +13,12 @@
 4) 카카오톡 공유하기
 5) 누적 당첨금액으로 지정된 물품을 얼마나 살 수 있는지 수량확인
 6) 문의 및 건의사항 이메일 전송
+---
 
-
+# 사이트 링크
 
   
-
+[로또 추첨 사이트](https://luco777.store/)
 
 
 
@@ -80,10 +82,13 @@ public Enginner Luco() {
   
 
   ---
+# 문의 및 건의사항
 
-
-
-### 정리내용
+1. 사이트 내 건의사항 및 문의사항 통해서 메일 보내기 
+2. goorm94@naver.com
+3. haberde97@gmail.com
+---
+# 노션 정리
 <a href="https://carpal-dumpling-37b.notion.site/5ae55b5632ed4e719effd6abe0558f83?v=2dc108364f7542d6a1557ef722396c66&pvs=4" target="_blank">
                    <img src="https://img.shields.io/badge/notion-181717?style=for-the-badge&logo=notion&logoColor=white">
                 </a>

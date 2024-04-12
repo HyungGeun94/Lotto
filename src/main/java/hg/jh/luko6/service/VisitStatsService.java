@@ -26,7 +26,7 @@ public class VisitStatsService {
 
         Cookie[] cookies = request.getCookies();
 
-        Optional<VisitStats> optional =visitStatsRepository.findById(2L);
+        Optional<VisitStats> optional =visitStatsRepository.findById(1L);
 
             VisitStats visitStats1 = optional.get();
 
