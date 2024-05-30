@@ -24,7 +24,9 @@
 <img width="400" alt="321467926-33356fa6-034b-4553-a3ab-95f5eb070b33" src="https://github.com/HyungGeun94/luko6/assets/152036928/d5f91bf1-e24c-4306-9cb2-340987b7ceae">
 <img width="400" height = "300" alt="321467926-33356fa6-034b-4553-a3ab-95f5eb070b33" src="https://github.com/HyungGeun94/luko6/assets/152036928/eaf8b1f1-0edc-4d59-b809-e890e98a66ea">
 <img width="400" height = "300" alt="321467926-33356fa6-034b-4553-a3ab-95f5eb070b33" src="https://github.com/HyungGeun94/luko6/assets/152036928/a6280715-daf2-41dd-8055-cd1d33c8e918">
+<img width="400" height = "300" alt="스크린샷 2024-05-30 오전 10 23 36" src="https://github.com/HyungGeun94/Lotto/assets/152036928/6e8268b7-cfe2-483c-a6f5-cc99789fe0c7">
 
+<img width="400" height = "300" alt="스크린샷 2024-05-30 오전 10 22 35" src="https://github.com/HyungGeun94/Lotto/assets/152036928/d5080cd2-8488-4949-b11f-4c754c8e9bbc">
 
 
 
