@@ -1,4 +1,4 @@
-# 로또 프로젝트 
+# 로또 프로젝트 (5/30 배포중단)
 백엔드 개발자 프로젝트로 로또에 대한 관심에 비해 로또 추첨 관련 모의 사이트가 없어서 색다르게 만들게 되었습니다.
 
 
@@ -7,12 +7,15 @@
 
 
 
-# 사이트 링크 (5/30 배포중단)
+
 
   
 <a href="https://luco777.store/?v=2dc108364f7542d6a1557ef722396c66&pvs=4" target="_blank">
     <img src="https://img.shields.io/badge/로또 추첨 사이트-181717?style=for-the-badge&logo=Apple Arcade&logoColor=white">
   </a>
+  <div align="left">
+<s>https://luco777.store</s>
+</div>
 
 
 
