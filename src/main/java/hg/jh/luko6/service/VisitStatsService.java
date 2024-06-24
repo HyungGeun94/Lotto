@@ -63,11 +63,7 @@ public class VisitStatsService {
 
         Optional<VisitStats> visitStats = visitStatsRepository.findById(id);
 
-        if(visitStats.isPresent()){
-            return visitStats.get();
-        }else{
-            return null;
-        }
+        return visitStats.orElse(null);
 
 
 
