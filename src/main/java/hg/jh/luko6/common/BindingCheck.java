@@ -12,6 +12,7 @@ public class BindingCheck {
 
     @Around("execution(* hg.jh.luko6.controller..*(..))")
     public Object validAdviceHandler(ProceedingJoinPoint joinPoint) throws Throwable {
+
         Object[] args = joinPoint.getArgs();
         for (Object arg : args) {
             if (arg instanceof BindingResult) {
@@ -22,6 +23,7 @@ public class BindingCheck {
                 }
             }
         }
+
         return joinPoint.proceed();
     }
 }

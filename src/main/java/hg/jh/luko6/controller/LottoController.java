@@ -2,7 +2,6 @@ package hg.jh.luko6.controller;
 
 import hg.jh.luko6.DTO.NumberDTO;
 import hg.jh.luko6.entity.*;
-import hg.jh.luko6.repository.VisitStatsRepository;
 import hg.jh.luko6.service.LottoService;
 import hg.jh.luko6.service.NumberCheckService;
 import hg.jh.luko6.service.VisitStatsService;
@@ -26,31 +25,25 @@ public class LottoController {
     private final VisitStatsService visitStatsService;
     private final NumberCheckService numberCheckService;
 
-    @GetMapping("/")//홈페이지 시작시 index로 가는 메서드
-//    @ResponseBody//협업용
-//    public VisitStats index(HttpServletRequest request//협업용
-//            , HttpServletResponse response){//협업용
+    @GetMapping("/")//
     public String index(){
 
         return "index";
-//        return optionalVisitStats.orElse(null);
     }
 
-    @GetMapping("/stats")//방문자/이용자 수 view에 보내기
+    @GetMapping("/stats")
     public @ResponseBody Map<String, Object> getStats(HttpServletRequest request, HttpServletResponse response) {
 
         Map<String, Object> stats = new HashMap<>();
 
         Long visitorCount = visitStatsService.getVisitorCount(request, response);//방문자수 불러오기
 
-        stats.put("visitorCount", visitorCount);//방문자수 맵에 넣기
-        // 추가 데이터 처리
+        stats.put("visitorCount", visitorCount); //방문자 수
 
-        VisitStats visitStats  =visitStatsService.getVisitStats(1L);//visitStats에 있는 id가 1인 컬럼을 불러온다
+        VisitStats visitStats  =visitStatsService.getVisitStats(2L);//visitStats에 있는 id가 1인 컬럼을 불러온다
         //optional은 값이 존재한다면 반환, 없을 경우 NoSuchElementException 발생
         Long userCount = visitStats.getUserCount();
 
-//        return optionalVisitStats.orElse(null);
         stats.put("userCount", userCount);//이용자수 맵에 넣기
         return stats;
     }
@@ -132,7 +125,7 @@ public class LottoController {
 
 
 
-         visitStats  =visitStatsService.getVisitStats(1L);//visitStats에 있는 id가 1인 컬럼을 불러온다
+         visitStats  =visitStatsService.getVisitStats(2L);//visitStats에 있는 id가 1인 컬럼을 불러온다
 
 
 //       로직이 돌아가면 이용자수에 +1하기
@@ -145,7 +138,6 @@ public class LottoController {
 
             }
             lottoMap.put("usercount", visitStats.getUserCount());
-            log.info("여기야///////////////////"+visitStats.getUserCount());
 
         return ResponseEntity.ok(lottoMap);
 
