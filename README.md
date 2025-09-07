@@ -9,12 +9,7 @@
 
 
 
-
-
   
-<a href="https://luco777.store/?v=2dc108364f7542d6a1557ef722396c66&pvs=4" target="_blank">
-    <img src="https://img.shields.io/badge/로또 추첨 사이트-181717?style=for-the-badge&logo=Apple Arcade&logoColor=white">
-  </a>
   <div align="left">
 <s>https://luco777.store</s>
 </div>
@@ -26,6 +21,7 @@
 # 웹 페이지    
 
 <img width="400" alt="321467926-33356fa6-034b-4553-a3ab-95f5eb070b33" src="https://github.com/HyungGeun94/luko6/assets/152036928/7f0c4d40-479f-41fb-b9cd-17946269b3d3">
+<img width="400" height="1000" src="https://github.com/user-attachments/assets/d5c49a71-9f8c-4ac9-9a7d-c05de0bbacdf" />
 <img width="400" alt="321467926-33356fa6-034b-4553-a3ab-95f5eb070b33" src="https://github.com/HyungGeun94/luko6/assets/152036928/d5f91bf1-e24c-4306-9cb2-340987b7ceae">
 <img width="400" height = "300" alt="321467926-33356fa6-034b-4553-a3ab-95f5eb070b33" src="https://github.com/HyungGeun94/luko6/assets/152036928/eaf8b1f1-0edc-4d59-b809-e890e98a66ea">
 <img width="400" height = "300" alt="321467926-33356fa6-034b-4553-a3ab-95f5eb070b33" src="https://github.com/HyungGeun94/luko6/assets/152036928/a6280715-daf2-41dd-8055-cd1d33c8e918">
