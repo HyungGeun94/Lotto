@@ -4,7 +4,17 @@
 * 네트워크와 서버의 상호작용에 대해 알아보자 하였습니다.
 * 개발자와 사용자 간 웹 사이트 이해의 차이로 인한 차이를 경험해보고 싶었습니다.
 
+# 프로젝트 목표
 
+목표 : 누적 방문자 1000명,이용자 100명 ( AWS를 이용한 https환경 구축 )
+
+측정방법 :  방문자/이용자 별도 집계 
+
+방문자 : 페이지 로딩될 때 +1 ( 쿠키를 이용한 24시간당 1회 증가)
+
+이용자 : 로또 프로그램  실행시 +1 
+
+구현하고 싶은 것 : 카카오톡 공유하기 할때 본인의 당첨 금액 보여주기( 공유하기 기능 )
 ---
 
 
@@ -143,8 +153,5 @@ public Enginner Luco() {
 2. goorm94@naver.com
 3. haberde97@gmail.com
 ---
-# 노션 정리
-<a href="https://carpal-dumpling-37b.notion.site/5ae55b5632ed4e719effd6abe0558f83?v=2dc108364f7542d6a1557ef722396c66&pvs=4" target="_blank">
-                   <img src="https://img.shields.io/badge/notion-181717?style=for-the-badge&logo=notion&logoColor=white">
-                </a>
+
                 
