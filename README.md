@@ -4,11 +4,27 @@
 
 목표 : 방문자 200명,이용 횟수 500 ( AWS를 이용한 https환경 구축 )
 
+주제 : 일관된 번호로 로또 1회부터 현재까지 응모 했을 때 , 누적 당첨금액 확인 기능
+
 측정방법 :  방문자/이용 횟수 별도 집계 
 
 방문자 : 페이지 로딩될 때 +1 ( 쿠키를 이용한 24시간당 1회 증가)
 
 이용 횟수 : 로또 로직 실행시 +1 
+
+프로젝트 기간 : 2024/3/11 ~ 2024/4/11 (1달)
+
+---
+
+
+# 구성원
+```swift
+public Developer Luco() {
+  public BackEnd HyungGeun;
+  public BackEnd JongHo
+  ...
+}
+```
 
 ---
 
@@ -74,16 +90,6 @@
 ---
 
 
-# 구성원
-```swift
-public Developer Luco() {
-  public BackEnd HyungGeun;
-  public BackEnd JongHo
-  ...
-}
-```
-
----
 
 # 사용 도구
 
