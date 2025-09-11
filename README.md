@@ -1,8 +1,4 @@
-# 로또 프로젝트 (5/30 배포중단)
-
-* 로컬환경이 아닌 이용자들이 사용해 볼 수 있는 사이트를 만들어보고싶었습니다.
-* 네트워크와 서버의 상호작용에 대해 알아보자 하였습니다.
-* 개발자와 사용자 간 웹 사이트 이해의 차이로 인한 차이를 경험해보고 싶었습니다.
+# 로또 프로젝트 (luko7)
 
 # 프로젝트 목표
 
@@ -12,9 +8,8 @@
 
 방문자 : 페이지 로딩될 때 +1 ( 쿠키를 이용한 24시간당 1회 증가)
 
-이용자 : 로또 프로그램  실행시 +1 
+이용 횟수 : 로또 프로그램  실행시 +1 
 
-구현하고 싶은 것 : 카카오톡 공유하기 할때 본인의 당첨 금액 보여주기( 공유하기 기능 )
 ---
 
 
@@ -32,12 +27,12 @@
 
 <img width="400" alt="321467926-33356fa6-034b-4553-a3ab-95f5eb070b33" src="https://github.com/HyungGeun94/luko6/assets/152036928/7f0c4d40-479f-41fb-b9cd-17946269b3d3">
 <img width="400" height="1000" src="https://github.com/user-attachments/assets/d5c49a71-9f8c-4ac9-9a7d-c05de0bbacdf" />
-<img width="400" alt="321467926-33356fa6-034b-4553-a3ab-95f5eb070b33" src="https://github.com/HyungGeun94/luko6/assets/152036928/d5f91bf1-e24c-4306-9cb2-340987b7ceae">
+<img width="400" alt="300" src="https://github.com/HyungGeun94/luko6/assets/152036928/d5f91bf1-e24c-4306-9cb2-340987b7ceae">
+<img width="400" height = "300" alt="스크린샷 2024-05-30 오전 10 22 35" src="https://github.com/HyungGeun94/Lotto/assets/152036928/d5080cd2-8488-4949-b11f-4c754c8e9bbc">
 <img width="400" height = "300" alt="321467926-33356fa6-034b-4553-a3ab-95f5eb070b33" src="https://github.com/HyungGeun94/luko6/assets/152036928/eaf8b1f1-0edc-4d59-b809-e890e98a66ea">
 <img width="400" height = "300" alt="321467926-33356fa6-034b-4553-a3ab-95f5eb070b33" src="https://github.com/HyungGeun94/luko6/assets/152036928/a6280715-daf2-41dd-8055-cd1d33c8e918">
 <img width="400" height = "300" alt="스크린샷 2024-05-30 오전 10 23 36" src="https://github.com/HyungGeun94/Lotto/assets/152036928/6e8268b7-cfe2-483c-a6f5-cc99789fe0c7">
 
-<img width="400" height = "300" alt="스크린샷 2024-05-30 오전 10 22 35" src="https://github.com/HyungGeun94/Lotto/assets/152036928/d5080cd2-8488-4949-b11f-4c754c8e9bbc">
 
 
 
@@ -50,14 +45,11 @@
 
 - [x] 로또 랜덤번호 추첨 기능
 - [x] 원하는 번호 추첨 기능
-- [x] 1,2에 해당하는 똑같은 번호로 로또 1회부터 현재까지 샀을 때, 누적 당첨금액 확인 기능
-- [x] 카카오톡 공유하기
-- [x] 누적 당첨금액으로 지정된 물품을 얼마나 살 수 있는지 수량확인
+- [x] 일관된 번호로 로또 1회부터 현재까지 응모 했을 때 , 누적 당첨금액 확인 기능
+- [x] 이용자 중에 자신의 누적 당첨금액이 상위 몇%인지 측정하는 기능
+- [x] 누적 당첨금액으로 가격이 정해진 물품을 얼마나 살 수 있는지 수량
 - [x] 문의 및 건의사항 이메일 전송
-- [ ] 서버 이미지 업로드 ( 관리자 권한 )
-- [ ] 공유하기 사용 시 누적 당첨액 화면 캡쳐되어 보내지게하기
-- [ ] 이름 입력해서 당첨금 랭킹 기록하기
-
+- [x] 카카오톡 공유하기
 
 
 ---
@@ -79,22 +71,14 @@
    여러 문제들이 있었지만 공식 문서 및 오류 로그를 통한 서칭을 통해 원활하게 해결하였다
 
 
-* aws ec2 인스턴스 상태 검사(1/2) 인스턴스 연결성 검사 실패문제 
-
- 
-   웹 서버가 2~3일 주기로 다운되는 현상이 발생 ec2 프리티어를 사용중이라 메모리 부족,
-
-
-  하드웨어 문제로 판단하여 추후에 ec2 서비스를 업그레이드 해보고 배포해볼 예정
-
 ---
 
 
 # 구성원
 ```swift
-public Enginner Luco() {
-  public Enginner HyungGeun;
-  public Enginner JongHo
+public Developer Luco() {
+  public BackEnd HyungGeun;
+  public BackEnd JongHo
   ...
 }
 ```
@@ -141,7 +125,7 @@ public Enginner Luco() {
 ## 성과 지표
 
 - 2024년 4월 11일 배포완료.
-- 2024년 5월 30일 배포중단 (방문자: 148명, 이용자: 494명 ) 
+- 2024년 5월 30일 배포중단 (방문자: 148명, 이용 횟수: 494명 ) 
 
   ---
 
